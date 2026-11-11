@@ -1,0 +1,327 @@
+=== PÁGINA 1 ===
+Documento de Referencia Técnica y Académica
+Página 1
+Compendio Detallado de Mecánica de Suelos
+Fundamentos Teóricos, Mineralogía, Relaciones Fásicas, Clasificación Normalizada y Capilaridad
+Este compendio técnico ampliado constituye una guía completa de la mecánica de suelos básica y aplicada. Integra
+de forma detallada los conceptos históricos, metodologías de exploración geotécnica, mineralogía de arcillas,
+relaciones fásicas gravimétricas y volumétricas, métodos de laboratorio granulométricos y de plasticidad, sistemas
+internacionales de clasificación (USCS y AASHTO), así como la física de la tensión superficial, capilaridad y succión.
+CAPÍTULO 1: GENERALIDADES, EVOLUCIÓN HISTÓRICA Y EXPLORACIÓN GEOTÉCNICA
+1.1 Definición y Evolución Histórica de la Mecánica de Suelos
+Karl Terzaghi (1925) definió la Mecánica de Suelos en su obra insigne Erdbaumechanik como la aplicación de las
+leyes de la mecánica y la hidráulica a los problemas de ingeniería que tratan con sedimentos y acumulaciones no
+consolidadas de partículas sólidas, originadas por la desintegración mecánica o desintegración química de las rocas.
+
+Siglos XVII - XVIII (Etapa Pre-clásica): Construcción basada en métodos meramente empíricos y carencia de
+una teoría unificada sobre la interacción entre la estructura y el suelo.
+
+1925 (Nacimiento de la Mecánica de Suelos Moderna): Karl Terzaghi formula el principio fundamental del
+esfuerzo efectivo (σ' = σ - u), explicando la consolidación hidrodinámica y la deformación diferida en el tiempo.
+
+1930s - 1940s (Escuela de Harvard y Arthur Casagrande): Organización de la 1ª Conferencia Internacional
+(1936), desarrollo de la Carta de Plasticidad, normalización universal de los límites de consistencia de Atterberg y
+estandarización de ensayos de laboratorio.
+
+1940s - 1960s (Skempton, Bjerrum, Fellenius): Avances cuantitativos en resistencia al corte no drenada (Su),
+estabilidad de taludes, capacidad de carga geotécnica y consolidación secundaria.
+Fórmula de Capacidad Portante de Cimentaciones (Método Skempton - CPT):
+Rd = Kc · Nc · Su + γ · D
+Donde: Rd = Capacidad portante unitaria del suelo | Kc = Factor de inclinación de la carga | Nc = Factor de capacidad portante de
+Skempton | Su = Resistencia al corte no drenada | γ = Peso unitario del suelo sobre la base | D = Profundidad de desplante de la
+zapata.
+1.2 Exploración de Campo, Métodos de Muestreo y Normativa
+La exploración del subsuelo requiere una planificación previa meticulosa, calibración de equipos y protocolos de
+seguridad. Las investigaciones directas comprenden apiques o calicatas (excavaciones a cielo abierto para
+inspección estrato por estrato) y barrenos manuales o mecánicos.
+
+
+=== PÁGINA 2 ===
+Documento de Referencia Técnica y Académica
+Página 2
+Tipo de
+Muestra
+Método de Extracción
+Norma INV E
+Preservación de
+Estructura
+Ensayos
+Destinados
+Alterada
+Palas, barrenos, frascos
+INV E-101 / E-105
+Se pierde la estructura
+original del suelo
+Granulometría,
+Límites de Atterberg,
+Gravedad Específica
+Inalterada
+(Bloques)
+Talla manual en pared de
+calicata
+INV E-104
+Conserva estructura,
+humedad y porosidad
+Consolidación,
+Consolidación triaxial,
+Corte Directo
+Inalterada
+(Tubo)
+Muestreador de tubo
+Shelby de pared delgada
+INV E-105
+Alta calidad en suelos
+finos blandos a firmes
+Permeabilidad,
+Resistencia no
+drenada, Triaxial
+Ensayo de Penetración Estándar (SPT): Consiste en hincar un muestreador partido mediante la caída libre de un
+martillo de 63.5 kg desde una altura de 76 cm. El número de golpes obtenido (N) debe ser corregido rígidamente
+para estandarizar la energía real entregada al suelo:
+Factores de Corrección del Número de Golpes SPT (N60):
+N60 = N · (Em / 60) · CB · CS · CR
+ Em (Eficiencia del martillo): Ajuste por energía del sistema (donas, seguridad, automático: 45% a 80%).
+ CB (Diámetro de perforación): Factor de ajuste según el diámetro del pozo (1.0 para 65-115 mm, 1.05 para 150 mm).
+ CS (Muestreador): Corrección si se utiliza revestidor interior o cuchara sin camisa (1.0 a 1.2).
+ CR (Longitud de varilla): Ajuste por flexibilidad en perforaciones poco profundas (0.75 para <4m, 1.0 para >10m).
+CAPÍTULO 2: MINERALOGÍA DE ARCILLAS Y RELACIONES GRAVIMÉTRICAS Y VOLUMÉTRICAS
+2.1 Fundamentos de Mineralogía y Estructura Cristalina
+Los silicatos representan más del 90% de la corteza terrestre. La unidad fundamental estructural es el tetraedro de
+sílice (Si4+ coordinado con 4 átomos de O2-). Las hojas octaédricas pueden ser de Gibsita (Al3+ rodeado de 6
+grupos OH-/O2-) o de Brucita (Mg2+ rodeado de 6 OH-).
+Grupo
+Mineral
+Estructura
+Cristalina
+Tipo de Enlace
+Interlaminar
+Propiedades de
+Plasticidad
+Comportamiento
+Geotécnico
+Caolinita
+1:1 (Lámina Si +
+Lámina Al)
+Hidrógeno (Fuerte)
+Baja a moderada
+plasticidad
+No expansiva, alta
+permeabilidad relative,
+estable
+Montmorillonit
+a
+2:1 (Si - Al - Si)
+Van der Waals +
+Cationes (Débil)
+Muy alta plasticidad y
+actividad
+Altamente expansiva,
+baja permeabilidad,
+inestable
+Illita
+2:1 (Si - Al - Si)
+Iones de Potasio (K+)
+fijos
+Plasticidad intermedia
+Expansión moderada,
+producto de micas
+meteorizadas
+
+
+=== PÁGINA 3 ===
+Documento de Referencia Técnica y Académica
+Página 3
+Grupo
+Mineral
+Estructura
+Cristalina
+Tipo de Enlace
+Interlaminar
+Propiedades de
+Plasticidad
+Comportamiento
+Geotécnico
+Vermiculita
+2:1 modificada
+Cationes hidratados
+intercambiables
+Alta capacidad de
+intercambio
+Expansividad intermedia
+entre Illita y
+Montmorillonita
+2.2 Composición Trifásica y Relaciones Gravimétricas y Volumétricas
+El suelo es un sistema multifásico compuesto por: (1) Fase Sólida (partículas minerales), (2) Fase Líquida (agua
+libre y ligada), y (3) Fase Gaseosa (aire u otros gases). Las relaciones fundamentales entre los pesos y volúmenes
+de estas fases permiten modelar cuantitativamente el comportamiento del suelo.
+Resumen Completo de Ecuaciones de Relaciones Fásicas:
+ Porosidad (n): n = (Vv / VT) · 100% | Relación de Vacíos (e): e = Vv / Vs
+ Conversión n y e: n = e / (1 + e) | e = n / (1 - n)
+ Grado de Saturación (Sr): Sr = (Vw / Vv) · 100% | Contenido de Humedad (w): w = (Pw / Ps) · 100%
+ Gravedad Específica (Gs): Gs = Ps / (Vs · γw) | Relación Fundamental: e · Sr = w · Gs
+ Peso Unitario Húmedo (γm): γm = PT / VT = [(Gs + e · Sr) / (1 + e)] · γw
+ Peso Unitario Seco (γd): γd = Ps / VT = γm / (1 + w) = [Gs / (1 + e)] · γw
+ Peso Unitario Saturado (γsat): γsat = [(Gs + e) / (1 + e)] · γw
+ Peso Unitario Sumergido (γ'): γ' = γsat - γw = [(Gs - 1) / (1 + e)] · γw
+2.3 Comparación de Propiedades Índice entre Suelos y Rocas
+En la mecánica de rocas, a diferencia del suelo donde la porosidad es totalmente accesible y deformable, se
+distingue entre la porosidad accesible (Vha) y la porosidad inaccesible (Vhi) contenida en vesículas estancas. La
+porosidad eficaz (ne = Vha / VT) dicta la permeabilidad primaria. Además, la resistencia a la compresión simple en
+rocas (σc) presenta una correlación inversamente proporcional con el incremento de la porosidad.
+CAPÍTULO 3: ESTRUCTURA, GRANULOMETRÍA Y CLASIFICACIÓN DE SUELOS
+3.1 Distribución Granulométrica y Métodos de Laboratorio
+El análisis granulométrico determina la proporción cuantitativa de los tamaños de grano presentes en el suelo. Para
+fracciones gruesas (retenido en Tamiz #200 / 0.075 mm) se emplea el Tamizado mecánico (INV E-123). La
+distribución se evalúa mediante dos coeficientes numéricos característicos:
+Coeficientes de Gradación Granulométrica:
+ Coeficiente de Uniformidad: Cu = D60 / D10 (Mide la variedad de tamaños; Cu > 4 en gravas y Cu > 6 en arenas indica buena
+gradación).
+ Coeficiente de Curvatura: Cc = (D30)2 / (D60 · D10) (Mide la continuidad de la curva; valores entre 1 y 3 indican gradación
+suave y bien distribuida).
+Ensayos en Suelos Finos (Pasa Tamiz #200):
+
+
+=== PÁGINA 4 ===
+Documento de Referencia Técnica y Académica
+Página 4
+1. Método del Hidrómetro: Fundamentado en la Ley de Stokes para la velocidad de caída de partículas esféricas
+en un medio fluido (v = K · D2). Requiere aplicar dos correcciones rigurosas a las lecturas del hidrómetro:
+   Corrección por Menisco (Cm): Adición de aprox. +1 unidad debido a la lectura tomada en la parte superior del
+menisco formado en el vástago.
+   Corrección por Defloculante (Cd): Se agrega Hexametafosfato de Sodio (NaPO3) para neutralizar las cargas
+eléctricas superficiales y evitar la floculación de arcillas.
+2. Ensayo de Azul de Metileno (INV E-235 / 2013): Mide la cantidad de tinte absorbido por la fracción fina pasa
+tamiz #200 para cuantificar la superficie específica y la actividad de los minerales arcillosos presentes.
+3.2 Límites de Atterberg y Ensayos de Consistencia (INV E-125, E-126)
+Los límites de consistencia establecen los contenidos de humedad en los cuales un suelo fino pasa de un estado
+físico a otro: Estado Líquido → Límite Líquido (LL) → Estado Plástico → Límite Plástico (LP) → Estado
+Semicólido → Límite de Contracción (LC) → Estado Sólido.
+Fórmulas del Límite de Contracción y Parámetros Volumétricos (Práctica de Laboratorio):
+ Índice de Plasticidad: IP = LL - LP
+ Límite de Contracción: LC = w - [((V - V0) · ρw) / M0] · 100
+ Relación de Contracción: R = M0 / (V0 · ρw)
+ Cambio Volumétrico: CV = (w1 - LC) · R
+ Contracción Lineal: CL = 100 · [1 - (100 / (100 + CV))1/3]
+Donde: M0 = Masa de pastilla seca | V = Volumen húmedo | V0 = Volumen seco (determinado por desplazamiento en mercurio) |
+ρw = Densidad del agua (1.0 g/cm3).
+3.3 Sistemas de Clasificación de Suelos (USCS y AASHTO)
+ Sistema
+Símbolo
+Descripción del Grupo
+Criterio Granulométrico /
+Plasticidad
+Campo de Aplicación
+Geotécnica
+USCS
+GW / GP
+Grava Bien / Mal Gradada
+Finos < 5%, Cu >= 4 y 1 <= Cc <=
+3 (GW)
+Filtros, bases de alta
+capacidad portante
+USCS
+SW / SP
+Arena Bien / Mal Gradada
+Finos < 5%, Cu >= 6 y 1 <= Cc <=
+3 (SW)
+Rellenos estructurales,
+cimentaciones
+USCS
+CL / CH
+Arcilla de Baja / Alta
+Plasticidad
+Finos >= 50%, Sobre Línea A (IP
+> 7), LL < 50 (CL) o LL >= 50 (CH)
+Núcleos impermeables (CL),
+riesgo expansión (CH)
+USCS
+ML / MH
+Limo de Baja / Alta
+Elasticidad
+Finos >= 50%, Bajo Línea A, LL <
+50 (ML) o LL >= 50 (MH)
+Suelos micáceos, alta
+compresibilidad (MH)
+AASHTO
+A-1 a A-3
+Materiales Granulares
+(Vías)
+Pasa Tamiz #200 <= 35%, IP bajo
+o NP
+Excelentes subbases y
+subrasantes viales
+AASHTO
+A-4 a A-7
+Materiales Limo-Arcillosos
+Pasa Tamiz #200 > 35%,
+evaluados por Índice de Grupo
+(IG)
+Subrasantes regulares a
+pobres
+Índice de Grupo (IG) en Sistema AASHTO (INV E-180): Permite graduar la calidad de un suelo fino como
+subrasante vial. Se calcula mediante la ecuación:
+
+
+=== PÁGINA 5 ===
+Documento de Referencia Técnica y Académica
+Página 5
+Ecuación Oficial del Índice de Grupo (IG):
+IG = (F - 35) · [0.2 + 0.005 · (LL - 40)] + 0.01 · (F - 15) · (IP - 10)
+Donde F = Porcentaje entero que pasa el Tamiz No. 200 (75 μm). Si IG < 0, se asigna IG = 0. Para grupos A-2-6 y A-2-7 se usa
+solo el término parcial de IP: IG = 0.01(F - 15)(IP - 10).
+CAPÍTULO 4: EL AGUA EN LOS SUELOS: TENSIÓN SUPERFICIAL, CAPILARIDAD Y SUCCIÓN
+4.1 El Agua en el Ciclo Hidrológico y su Importancia en Ingeniería Civil
+El agua subterránea interactúa de forma dinámica con la fase sólida del suelo a través de los procesos hidrológicos
+de precipitación, infiltración, escorrentía, evaporación y evapotranspiración. En las obras de ingeniería geotécnica, el
+estudio del agua es determinante para:
+ Flujo y Permeabilidad: Cálculo de caudales de filtración y fugas en presas de tierra.
+ Esfuerzo Efectivo y Resistencia: Control de la presión de poros (u) que reduce la resistencia al corte (τ = c' + σ'
+tanφ').
+ Asentamientos: Determinación de la velocidad de consolidación primaria y deformaciones verticales.
+ Presiones Hidrostáticas: Empujes de agua sobre estructuras de contención y superficies potencias de falla en
+taludes.
+4.2 Tensión Superficial y Ascenso Capilar
+La Tensión Superficial (Ts) surge del desequilibrio de las fuerzas de atracción intermolecular en la superficie libre
+del agua en contacto con el aire. En los poros del suelo, que actúan como finos tubos capilares interconectados, la
+tensión superficial genera un menisco cóncavo que eleva la columna de agua por encima del Nivel Freático (N.F.).
+Ecuación Físico-Matemática del Ascenso Capilar (h_c):
+hc = (4 · Ts · cos α) / (dc · γw) ≈ C / (e · D10)
+ Ts = Tensión superficial del agua (≈ 0.073 N/m a 20°C).
+ α = Ángulo de contacto suelo-agua (≈ 0° para wetting completo).
+ dc = Diámetro equivalente de los poros | γw = Peso unitario del agua.
+Efecto geotécnico: En gravas el ascenso capilar es casi nulo (< 10 cm), en arenas finas alcanza entre 0.3 m a 1.0 m, mientras
+que en arcillas finas puede superar los 3.0 m a 10.0 m de altura.
+4.3 Succión en Suelos no Saturados y Fenómeno de Licuación
+En la zona no saturada del suelo, el agua retenida por capilaridad genera presiones de poros negativas (succión
+matricial). La Succión Total comprende dos componentes fundamentales:
+   Succión Matricial (ua - uw): Asociada a la tensión superficial y los efectos de curvatura en los meniscos
+capilares.
+   Succión Osmótica (ψo): Ocasionada por la concentración de sales disueltas en el agua de los poros.
+
+
+=== PÁGINA 6 ===
+Documento de Referencia Técnica y Académica
+Página 6
+Determinación de la Succión mediante Papel de Filtro (INV E-159 / 2013):
+El ensayo coloca discos de papel de filtro (Whatman No. 42) en contacto directo (para succión matricial) o suspendido (para
+succión total) con la muestra de suelo a 20±3°C durante un período de equilibrio.
+La succión (h en kPa) se calcula mediante las curvas de calibración logarítmicas en función del contenido de humedad del papel
+de filtro (wf):
+ Para wf ≤ 45.3%: log h = 5.327 - 0.0779 · wf
+ Para wf > 45.3%: log h = 2.412 - 0.0135 · wf
+Nota: Para obtener la succión real h se aplica la función antilogaritmo: h = 10(log h).
+Fenómeno de Licuación de Suelos: En arenas finas o limos saturados no consolidados sometidos a cargas
+dinámicas (sismos o vibraciones), la presión de poros aumenta rápidamente (u → σ). De acuerdo con la ecuación de
+esfuerzo efectivo (σ' = σ - u), el esfuerzo efectivo se reduce a cero (σ' = 0), anulando la resistencia al corte del suelo
+(τ = 0) y haciendo que el terreno se comporte momentáneamente como un líquido denso.
+Conclusiones y Síntesis de Aplicabilidad Práctica:
+1. La correcta toma de muestras inalteradas (INV E-104/105) y la corrección energética del SPT son indispensables para
+análisis de cimentaciones.
+2. La mineralogía determina el potencial expansivo: las montmorillonitas demandan especial atención geotécnica frente a las
+caolinitas.
+3. La clasificación USCS y AASHTO junto a los Límites de Atterberg brindan el marco de diseño estandarizado para carreteras y
+estructuras.
+4. La física de la capilaridad y succión (INV E-159) explica la estabilidad de taludes no saturados y previene fallas dinámicas por
+licuación.
+
+
