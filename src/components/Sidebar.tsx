@@ -18,10 +18,13 @@ export default function Sidebar({
   onJumpToNorms,
 }: SidebarProps) {
   return (
-    <aside className="w-72 shrink-0 hidden lg:block">
-      <div className="sticky top-20 max-h-[calc(100vh-5.5rem)] overflow-y-auto pr-3 py-2 space-y-6">
+    <aside
+      aria-label="Panel de navegación del compendio"
+      className="fixed top-16 bottom-0 left-0 z-30 hidden lg:flex flex-col w-72 xl:w-80 bg-white border-r border-slate-200 shadow-xs"
+    >
+      <div className="flex-1 overflow-y-auto px-4 py-5 space-y-6 overscroll-contain">
         {/* Quick action cards inside sidebar */}
-        <div className="p-3.5 rounded-xl bg-white border border-[#E2E8F0] shadow-xs space-y-2">
+        <div className="p-3.5 rounded-xl bg-slate-50 border border-slate-200/80 shadow-2xs space-y-2">
           <div className="text-[11px] font-bold uppercase tracking-wider text-[#062653] flex items-center justify-between">
             <span>Herramientas Rápidas</span>
             <span className="w-2 h-2 rounded-full bg-[#F58220] animate-pulse" />
@@ -29,7 +32,7 @@ export default function Sidebar({
           <div className="grid grid-cols-2 gap-2 pt-1">
             <button
               onClick={onOpenTools}
-              className="flex flex-col items-start p-2 rounded-lg bg-[#EBF3FC] hover:bg-[#0756A5] text-[#062653] hover:text-white transition-all text-left group"
+              className="flex flex-col items-start p-2 rounded-lg bg-[#EBF3FC] hover:bg-[#0756A5] text-[#062653] hover:text-white transition-all text-left group cursor-pointer"
             >
               <Calculator className="w-4 h-4 text-[#F58220] mb-1 group-hover:scale-110 transition-transform" />
               <span className="text-xs font-semibold">Calculadoras</span>
@@ -40,7 +43,7 @@ export default function Sidebar({
 
             <button
               onClick={onJumpToNorms}
-              className="flex flex-col items-start p-2 rounded-lg bg-emerald-50 hover:bg-emerald-600 text-emerald-950 hover:text-white transition-all text-left group"
+              className="flex flex-col items-start p-2 rounded-lg bg-emerald-50 hover:bg-emerald-600 text-emerald-950 hover:text-white transition-all text-left group cursor-pointer"
             >
               <BookmarkCheck className="w-4 h-4 text-emerald-600 group-hover:text-white mb-1 group-hover:scale-110 transition-transform" />
               <span className="text-xs font-semibold">Normas INV E</span>
@@ -52,8 +55,8 @@ export default function Sidebar({
         </div>
 
         {/* Chapters navigation */}
-        <nav className="space-y-5">
-          <div className="text-[11px] font-bold uppercase tracking-wider text-slate-500 px-2">
+        <nav className="space-y-5" aria-label="Secciones del documento">
+          <div className="text-[11px] font-bold uppercase tracking-wider text-slate-400 px-2">
             Tabla de Contenido
           </div>
 
@@ -61,7 +64,11 @@ export default function Sidebar({
             const isChapterActive = chapter.sections.some((s) => s.id === activeSection);
             return (
               <div key={chapter.id} className="space-y-1">
-                <div className={`px-2 py-1 rounded-md transition-colors ${isChapterActive ? "bg-blue-50/80" : ""}`}>
+                <div
+                  className={`px-2 py-1 rounded-md transition-colors ${
+                    isChapterActive ? "bg-blue-50/80" : ""
+                  }`}
+                >
                   <span className="text-[10px] font-extrabold text-[#F58220] uppercase tracking-wider block">
                     {chapter.number}
                   </span>
@@ -77,10 +84,11 @@ export default function Sidebar({
                       <button
                         key={sec.id}
                         onClick={() => onSelectSection(sec.id)}
-                        className={`w-full text-left px-2.5 py-1.5 rounded-lg text-xs transition-all flex items-start justify-between group ${
+                        aria-current={isActive ? "location" : undefined}
+                        className={`w-full text-left px-2.5 py-1.5 rounded-lg text-xs transition-all flex items-start justify-between group cursor-pointer ${
                           isActive
                             ? "bg-[#0756A5] text-white font-medium shadow-xs"
-                            : "text-[#142B4D] hover:bg-white hover:text-[#0756A5]"
+                            : "text-[#142B4D] hover:bg-slate-100 hover:text-[#0756A5]"
                         }`}
                       >
                         <div className="flex items-start gap-1.5">
@@ -103,7 +111,7 @@ export default function Sidebar({
         </nav>
 
         {/* INVIAS Norms Badge Section */}
-        <div className="p-3.5 rounded-xl bg-white border border-[#E2E8F0] shadow-xs space-y-2.5">
+        <div className="p-3.5 rounded-xl bg-slate-50 border border-slate-200/80 shadow-2xs space-y-2.5">
           <div className="flex items-center justify-between text-xs font-bold text-[#062653]">
             <span>Normas INV E Citadas</span>
             <span className="text-[10px] px-2 py-0.5 rounded-full bg-blue-100 text-[#0756A5] font-mono">
@@ -116,7 +124,7 @@ export default function Sidebar({
                 key={n.code}
                 onClick={() => onSelectSection(n.sectionId)}
                 title={n.name}
-                className="text-[11px] font-mono px-2 py-0.5 rounded-md bg-[#F5F7FC] hover:bg-[#0756A5] hover:text-white border border-slate-200 text-[#142B4D] transition-colors"
+                className="text-[11px] font-mono px-2 py-0.5 rounded-md bg-white hover:bg-[#0756A5] hover:text-white border border-slate-200 text-[#142B4D] transition-colors cursor-pointer"
               >
                 {n.code}
               </button>
@@ -125,11 +133,11 @@ export default function Sidebar({
         </div>
 
         {/* Institutional Footer */}
-        <div className="px-2 text-[11px] text-slate-500 space-y-1">
+        <div className="px-2 pt-2 pb-4 text-[11px] text-slate-500 space-y-1 border-t border-slate-100">
           <p className="font-semibold text-[#062653]">
             Compendio de Mecánica de Suelos
           </p>
-          <p className="text-[10px] text-slate-500">
+          <p className="text-[10px] text-slate-400">
             Fidelidad técnica completa según compendio v2.0
           </p>
         </div>

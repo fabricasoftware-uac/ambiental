@@ -17,14 +17,14 @@ export default function Navbar({
   onJumpToNorms,
 }: NavbarProps) {
   return (
-    <header className="sticky top-0 z-40 bg-[#062653] text-white border-b border-[#0756A5]/50 shadow-md backdrop-blur-md">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16">
+    <header className="fixed top-0 inset-x-0 z-40 h-16 bg-[#062653] text-white border-b border-[#0756A5]/50 shadow-md backdrop-blur-md">
+      <div className="w-full h-full px-4 sm:px-6 lg:px-8">
+        <div className="flex items-center justify-between h-full">
           {/* Left: Mobile hamburger & Logo/Title */}
           <div className="flex items-center gap-3">
             <button
               onClick={onOpenMobileMenu}
-              className="lg:hidden p-2 rounded-lg text-slate-200 hover:text-white hover:bg-white/10 transition-colors"
+              className="lg:hidden p-2 rounded-lg text-slate-200 hover:text-white hover:bg-white/10 transition-colors cursor-pointer"
               aria-label="Abrir menú de navegación"
             >
               <Menu className="w-6 h-6" />
@@ -53,7 +53,7 @@ export default function Navbar({
             {/* Search Input trigger */}
             <button
               onClick={onOpenSearch}
-              className="flex items-center gap-2 bg-[#041B3B]/80 hover:bg-[#041B3B] text-slate-300 hover:text-white px-3 sm:px-4 py-1.5 rounded-xl border border-white/10 text-xs sm:text-sm transition-all shadow-inner group"
+              className="flex items-center gap-2 bg-[#041B3B]/80 hover:bg-[#041B3B] text-slate-300 hover:text-white px-3 sm:px-4 py-1.5 rounded-xl border border-white/10 text-xs sm:text-sm transition-all shadow-inner group cursor-pointer"
             >
               <Search className="w-4 h-4 text-[#F58220] group-hover:scale-110 transition-transform" />
               <span className="hidden md:inline">Buscar fórmulas, normas o términos...</span>
@@ -66,7 +66,7 @@ export default function Navbar({
             {/* Quick Tools button */}
             <button
               onClick={onOpenTools}
-              className="flex items-center gap-1.5 bg-[#0756A5] hover:bg-[#064789] text-white px-3 py-1.5 rounded-xl text-xs sm:text-sm font-medium transition-all shadow-xs border border-white/20"
+              className="flex items-center gap-1.5 bg-[#0756A5] hover:bg-[#064789] text-white px-3 py-1.5 rounded-xl text-xs sm:text-sm font-medium transition-all shadow-xs border border-white/20 cursor-pointer"
               title="Abrir calculadoras geotécnicas"
             >
               <Calculator className="w-4 h-4 text-[#F58220]" />
@@ -76,7 +76,7 @@ export default function Navbar({
             {/* Quick Norms anchor */}
             <button
               onClick={onJumpToNorms}
-              className="hidden lg:flex items-center gap-1.5 text-xs text-blue-200 hover:text-white px-2.5 py-1.5 rounded-lg hover:bg-white/10 transition-colors"
+              className="hidden lg:flex items-center gap-1.5 text-xs text-blue-200 hover:text-white px-2.5 py-1.5 rounded-lg hover:bg-white/10 transition-colors cursor-pointer"
               title="Ver índice de Normas INV E"
             >
               <BookmarkCheck className="w-4 h-4 text-emerald-400" />

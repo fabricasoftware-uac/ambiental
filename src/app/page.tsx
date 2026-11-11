@@ -101,7 +101,7 @@ export default function CompendioPage() {
     <div id="top" className="min-h-screen bg-[#F5F7FC] flex flex-col text-[#142B4D]">
       <ReadingProgress />
 
-      {/* Top Navigation */}
+      {/* Top Fixed Navigation */}
       <Navbar
         onOpenSearch={() => setSearchOpen(true)}
         onOpenMobileMenu={() => setDrawerOpen(true)}
@@ -109,19 +109,18 @@ export default function CompendioPage() {
         onJumpToNorms={() => setNormsOpen(true)}
       />
 
-      {/* Main Container */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 w-full flex-1">
-        <div className="flex gap-8 items-start">
-          {/* Persistent Desktop Sidebar */}
-          <Sidebar
-            activeSection={activeSection}
-            onSelectSection={scrollToSection}
-            onOpenTools={() => setToolsOpen(true)}
-            onJumpToNorms={() => setNormsOpen(true)}
-          />
+      {/* Docked Fixed Desktop Sidebar */}
+      <Sidebar
+        activeSection={activeSection}
+        onSelectSection={scrollToSection}
+        onOpenTools={() => setToolsOpen(true)}
+        onJumpToNorms={() => setNormsOpen(true)}
+      />
 
-          {/* Main Content Area */}
-          <main className="flex-1 min-w-0 max-w-4xl space-y-10">
+      {/* Main Content Area: Offset for fixed top navbar (pt-16) and docked sidebar (lg:pl-72 xl:pl-80) */}
+      <div className="pt-16 lg:pl-72 xl:pl-80 w-full flex-1 flex flex-col transition-[padding] duration-150">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8 w-full flex-1 flex flex-col">
+          <main className="flex-1 min-w-0 space-y-10">
             {/* Editorial Hero Banner */}
             <div className="p-6 sm:p-8 rounded-2xl bg-[#062653] text-white shadow-xl relative overflow-hidden border border-[#0756A5]">
               <div className="absolute -right-12 -bottom-12 w-64 h-64 bg-[#0756A5]/20 rounded-full blur-2xl pointer-events-none" />
